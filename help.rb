@@ -1,7 +1,15 @@
-friends = ["Nicole", "George", "Tom"]
+# friends = ["Nicole", "George", "Tom"]
+#
+# p friends[0]
+# p friends[2]
+#
+#
+# p friends.unshift("Tim")
 
-p friends[0]
-p friends[2]
+friend = "Frank"
 
-
-p friends.unshift("Tim")
+if friend == "Nicole"
+  puts "Hi #{friend}!"
+else
+  puts "Goodbye!"
+end
